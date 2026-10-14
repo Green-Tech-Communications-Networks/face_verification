@@ -1,4 +1,4 @@
-import 'package:face_verification/controller/face_capture_state.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_state.dart';
 
 enum CaptureUi {
   initializing,

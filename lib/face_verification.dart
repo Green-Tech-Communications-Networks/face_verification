@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:face_verification/controller/face_capture_cubit.dart';
-import 'package:face_verification/face_pose.dart';
-import 'package:face_verification/sdk_welcome_screen.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
+import 'package:gtcomnet_face_id/sdk_welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 class FaceVerification {

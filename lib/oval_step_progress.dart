@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:face_verification/default_face_overlay.dart';
+import 'package:gtcomnet_face_id/default_face_overlay.dart';
 import 'package:flutter/material.dart';
 
 class OvalStepProgressPainter extends CustomPainter {

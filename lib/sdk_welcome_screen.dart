@@ -1,13 +1,13 @@
-import 'package:face_verification/constants/app_images.dart';
-import 'package:face_verification/constants/color_pallet.dart';
-import 'package:face_verification/face_capture_screen.dart';
-import 'package:face_verification/face_pose.dart';
-import 'package:face_verification/global_widgets/app_button.dart';
-import 'package:face_verification/global_widgets/app_text.dart';
-import 'package:face_verification/global_widgets/error_dialog.dart';
-import 'package:face_verification/global_widgets/powered_by.dart';
-import 'package:face_verification/global_widgets/sound_activate.dart';
-import 'package:face_verification/global_widgets/top_bar.dart';
+import 'package:gtcomnet_face_id/constants/app_images.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/face_capture_screen.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_button.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_text.dart';
+import 'package:gtcomnet_face_id/global_widgets/error_dialog.dart';
+import 'package:gtcomnet_face_id/global_widgets/powered_by.dart';
+import 'package:gtcomnet_face_id/global_widgets/sound_activate.dart';
+import 'package:gtcomnet_face_id/global_widgets/top_bar.dart';
 import 'package:flutter/material.dart';
 
 class SdkWelcomePage extends StatelessWidget {

@@ -1,4 +1,4 @@
-package com.example.face_verification
+package com.example.gtcomnet_face_id
 
 import io.flutter.embedding.android.FlutterActivity
 

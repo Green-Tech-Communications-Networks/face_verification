@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:camera/camera.dart';
-import 'package:face_verification/config/face_capture_config.dart';
-import 'package:face_verification/face_pose.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
@@ -133,7 +133,7 @@ class FaceCaptureController extends ChangeNotifier {
     ImageConfiguration config,
   ) async {
     for (final provider in [
-      AssetImage(path, package: 'face_verification'),
+      AssetImage(path, package: 'gtcomnet_face_id'),
       AssetImage(path),
     ]) {
       if (await _precacheProvider(provider, config)) return;

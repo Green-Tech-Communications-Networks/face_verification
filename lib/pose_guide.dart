@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:face_verification/constants/color_pallet.dart';
-import 'package:face_verification/global_widgets/app_text.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -24,7 +24,7 @@ class PoseGuideGif extends StatefulWidget {
 }
 
 class _PoseGuideGifState extends State<PoseGuideGif> {
-  static const _packageName = 'face_verification';
+  static const _packageName = 'gtcomnet_face_id';
   static String? _package;
   bool _ready = false;
 

@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:face_verification/face_verification.dart';
 import 'package:flutter/material.dart';
+import 'package:gtcomnet_face_id/face_verification.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,7 +1,7 @@
-import 'package:face_verification/config/face_capture_config.dart';
-import 'package:face_verification/controller/face_capture_cubit.dart';
-import 'package:face_verification/controller_select.dart';
-import 'package:face_verification/default_progress.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/controller_select.dart';
+import 'package:gtcomnet_face_id/default_progress.dart';
 import 'package:flutter/material.dart';
 
 class ProgressLayer extends StatelessWidget {

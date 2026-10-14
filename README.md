@@ -1,12 +1,12 @@
-# face_verification
+# gtcomnet_face_id
 
 A Flutter face verification and face capture package built on `google_mlkit_face_detection`.
 
-`face_verification` provides a ready-to-use verification experience that guides users through a series of facial poses and captures their face while performing real-time face detection. It is suited to identity verification, KYC onboarding, biometric authentication, user registration, and any flow that needs face-based verification.
+`gtcomnet_face_id` provides a ready-to-use verification experience that guides users through a series of facial poses and captures their face while performing real-time face detection. It is suited to identity verification, KYC onboarding, biometric authentication, user registration, and any flow that needs face-based verification.
 
 ## Table of Contents
 
-- [face_verification](#face_verification)
+- [gtcomnet_face_id](#gtcomnet_face_id)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [How It Works](#how-it-works)
@@ -72,11 +72,11 @@ It uses Google ML Kit's face detection to find the user's face and determine whe
 
 ## Installation
 
-Add `face_verification` to your app's `pubspec.yaml`:
+Add `gtcomnet_face_id` to your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  face_verification: ^1.0.0+1
+  gtcomnet_face_id: ^1.0.0+1
 ```
 
 Install the package:
@@ -88,12 +88,12 @@ flutter pub get
 Import it:
 
 ```dart
-import 'package:face_verification/face_verification.dart';
+import 'package:gtcomnet_face_id/gtcomnet_face_id.dart';
 ```
 
 ## Platform Setup
 
-`face_verification` needs camera access to perform face detection, capture, and verification. Your app must declare the camera permission on each platform and request it at runtime before starting the verification flow.
+`gtcomnet_face_id` needs camera access to perform face detection, capture, and verification. Your app must declare the camera permission on each platform and request it at runtime before starting the verification flow.
 
 ### Android
 
@@ -184,7 +184,7 @@ Add the camera usage description to `ios/Runner/Info.plist`:
 
 ## Usage
 
-After installing the package and configuring camera permissions, use `face_verification` in your app to start the face verification flow.
+After installing the package and configuring camera permissions, use `gtcomnet_face_id` in your app to start the face verification flow.
 
 Refer to the package API documentation and the example application for available configuration options and customization.
 

@@ -1,6 +1,6 @@
 {
-    "name": "face_verification",
-    "short_name": "face_verification",
+    "name": "gtcomnet_face_id",
+    "short_name": "gtcomnet_face_id",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,15 +1,15 @@
 import 'dart:async';
 
-import 'package:face_verification/capture_body.dart';
-import 'package:face_verification/config/app_enum.dart';
-import 'package:face_verification/config/face_capture_config.dart';
-import 'package:face_verification/controller/face_capture_cubit.dart';
-import 'package:face_verification/controller/face_capture_state.dart';
-import 'package:face_verification/controller/repo.dart';
-import 'package:face_verification/controller_select.dart';
-import 'package:face_verification/face_pose.dart';
-import 'package:face_verification/global_widgets/success_dialog.dart';
-import 'package:face_verification/message.dart';
+import 'package:gtcomnet_face_id/capture_body.dart';
+import 'package:gtcomnet_face_id/config/app_enum.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_state.dart';
+import 'package:gtcomnet_face_id/controller/repo.dart';
+import 'package:gtcomnet_face_id/controller_select.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
+import 'package:gtcomnet_face_id/global_widgets/success_dialog.dart';
+import 'package:gtcomnet_face_id/message.dart';
 import 'package:flutter/material.dart';
 import 'package:stts/stts.dart';
 

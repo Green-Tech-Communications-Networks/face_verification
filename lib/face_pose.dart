@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:face_verification/constants/app_images.dart';
+import 'package:gtcomnet_face_id/constants/app_images.dart';
 import 'package:flutter/material.dart';
 
 /// Every pose the flow can ask the user to perform.

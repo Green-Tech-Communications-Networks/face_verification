@@ -1,5 +1,5 @@
-import 'package:face_verification/controller/face_capture_cubit.dart';
-import 'package:face_verification/controller/face_capture_state.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_state.dart';
 import 'package:flutter/material.dart';
 
 class ControllerSelect<T> extends StatefulWidget {

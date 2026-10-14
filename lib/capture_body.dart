@@ -1,9 +1,9 @@
-import 'package:face_verification/camera_layer.dart';
-import 'package:face_verification/config/face_capture_config.dart';
-import 'package:face_verification/controller/face_capture_cubit.dart';
-import 'package:face_verification/dots_layer.dart';
-import 'package:face_verification/instruction_layer.dart';
-import 'package:face_verification/overlay_layer.dart';
+import 'package:gtcomnet_face_id/camera_layer.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/dots_layer.dart';
+import 'package:gtcomnet_face_id/instruction_layer.dart';
+import 'package:gtcomnet_face_id/overlay_layer.dart';
 import 'package:flutter/material.dart';
 
 class CaptureBody extends StatelessWidget {

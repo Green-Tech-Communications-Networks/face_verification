@@ -1,11 +1,11 @@
-import 'package:face_verification/config/face_capture_config.dart';
-import 'package:face_verification/constants/app_images.dart';
-import 'package:face_verification/constants/color_pallet.dart';
-import 'package:face_verification/controller/face_capture_cubit.dart';
-import 'package:face_verification/controller_select.dart';
-import 'package:face_verification/global_widgets/app_text.dart';
-import 'package:face_verification/global_widgets/powered_by.dart';
-import 'package:face_verification/global_widgets/sound_activate.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/constants/app_images.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/controller_select.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_text.dart';
+import 'package:gtcomnet_face_id/global_widgets/powered_by.dart';
+import 'package:gtcomnet_face_id/global_widgets/sound_activate.dart';
 import 'package:flutter/material.dart';
 
 class DotsLayer extends StatelessWidget {

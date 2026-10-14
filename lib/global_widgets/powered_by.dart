@@ -1,7 +1,7 @@
-import 'package:face_verification/constants/app_images.dart';
-import 'package:face_verification/constants/color_pallet.dart';
-import 'package:face_verification/global_widgets/app_text.dart';
-import 'package:face_verification/global_widgets/sound_activate.dart';
+import 'package:gtcomnet_face_id/constants/app_images.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_text.dart';
+import 'package:gtcomnet_face_id/global_widgets/sound_activate.dart';
 import 'package:flutter/material.dart';
 
 class PoweredBy extends StatelessWidget {
