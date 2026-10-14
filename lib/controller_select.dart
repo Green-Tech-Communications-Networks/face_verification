@@ -1,15 +1,14 @@
-import 'package:facetest/controller/face_capture_cubit.dart';
-import 'package:facetest/controller/face_capture_state.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_state.dart';
 import 'package:flutter/material.dart';
-
-
 
 class ControllerSelect<T> extends StatefulWidget {
   final FaceCaptureController controller;
   final T Function(FaceCaptureState state) selector;
   final Widget Function(BuildContext context, T value) builder;
 
-  const ControllerSelect({super.key, 
+  const ControllerSelect({
+    super.key,
     required this.controller,
     required this.selector,
     required this.builder,

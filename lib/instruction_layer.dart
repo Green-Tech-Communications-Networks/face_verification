@@ -1,7 +1,7 @@
-import 'package:facetest/config/face_capture_config.dart';
-import 'package:facetest/controller/face_capture_cubit.dart';
-import 'package:facetest/controller_select.dart';
-import 'package:facetest/pose_guide.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_cubit.dart';
+import 'package:gtcomnet_face_id/controller_select.dart';
+import 'package:gtcomnet_face_id/pose_guide.dart';
 import 'package:flutter/material.dart';
 
 class InstructionLayer extends StatelessWidget {

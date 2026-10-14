@@ -1,6 +1,6 @@
-import 'package:facetest/constants/color_pallet.dart';
-import 'package:facetest/controller/face_capture_state.dart';
-import 'package:facetest/face_pose.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_state.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
 import 'package:flutter/material.dart';
 
 /// Everything the UI team can tune WITHOUT touching camera/detection logic.

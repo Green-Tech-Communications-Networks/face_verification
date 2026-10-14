@@ -1,5 +1,5 @@
 import 'package:camera/camera.dart';
-import 'package:facetest/face_pose.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
 
 enum FaceCapturePhase {
   initializing,

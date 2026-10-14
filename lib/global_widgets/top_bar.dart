@@ -1,15 +1,10 @@
-
-import 'package:facetest/constants/color_pallet.dart';
-import 'package:facetest/global_widgets/app_text.dart';
-import 'package:facetest/global_widgets/sound_activate.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_text.dart';
+import 'package:gtcomnet_face_id/global_widgets/sound_activate.dart';
 import 'package:flutter/material.dart';
 
 class TopBar extends StatefulWidget {
-  const TopBar({
-    super.key,
-    required this.showSound,
-    this.onClose,
-  });
+  const TopBar({super.key, required this.showSound, this.onClose});
 
   final bool showSound;
   final VoidCallback? onClose;

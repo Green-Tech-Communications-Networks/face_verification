@@ -1,7 +1,7 @@
-import 'package:facetest/config/face_capture_config.dart';
-import 'package:facetest/controller/face_capture_state.dart';
-import 'package:facetest/global_widgets/error_dialog.dart';
-import 'package:facetest/global_widgets/top_bar.dart';
+import 'package:gtcomnet_face_id/config/face_capture_config.dart';
+import 'package:gtcomnet_face_id/controller/face_capture_state.dart';
+import 'package:gtcomnet_face_id/global_widgets/error_dialog.dart';
+import 'package:gtcomnet_face_id/global_widgets/top_bar.dart';
 import 'package:flutter/material.dart';
 
 /// Oval cutout used by [DefaultFaceOverlay] and the default step-progress ring.

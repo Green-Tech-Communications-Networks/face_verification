@@ -1,8 +1,8 @@
-import 'package:facetest/constants/app_images.dart';
-import 'package:facetest/constants/color_pallet.dart';
-import 'package:facetest/global_widgets/app_button.dart';
-import 'package:facetest/global_widgets/app_text.dart';
-import 'package:facetest/global_widgets/sound_activate.dart';
+import 'package:gtcomnet_face_id/constants/app_images.dart';
+import 'package:gtcomnet_face_id/constants/color_pallet.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_button.dart';
+import 'package:gtcomnet_face_id/global_widgets/app_text.dart';
+import 'package:gtcomnet_face_id/global_widgets/sound_activate.dart';
 import 'package:flutter/material.dart';
 
 class SuccessAlert extends StatelessWidget {

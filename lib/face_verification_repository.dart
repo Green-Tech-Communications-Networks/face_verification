@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:facetest/face_pose.dart';
+import 'package:gtcomnet_face_id/face_pose.dart';
+
 abstract class FaceVerificationRepository {
   Future<void> submitVerification({
     required String userId,
