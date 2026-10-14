@@ -1,13 +1,13 @@
-import 'package:facetest/constants/app_images.dart';
-import 'package:facetest/constants/color_pallet.dart';
-import 'package:facetest/face_capture_screen.dart';
-import 'package:facetest/face_pose.dart';
-import 'package:facetest/global_widgets/app_button.dart';
-import 'package:facetest/global_widgets/app_text.dart';
-import 'package:facetest/global_widgets/error_dialog.dart';
-import 'package:facetest/global_widgets/powered_by.dart';
-import 'package:facetest/global_widgets/sound_activate.dart';
-import 'package:facetest/global_widgets/top_bar.dart';
+import 'package:face_verification/constants/app_images.dart';
+import 'package:face_verification/constants/color_pallet.dart';
+import 'package:face_verification/face_capture_screen.dart';
+import 'package:face_verification/face_pose.dart';
+import 'package:face_verification/global_widgets/app_button.dart';
+import 'package:face_verification/global_widgets/app_text.dart';
+import 'package:face_verification/global_widgets/error_dialog.dart';
+import 'package:face_verification/global_widgets/powered_by.dart';
+import 'package:face_verification/global_widgets/sound_activate.dart';
+import 'package:face_verification/global_widgets/top_bar.dart';
 import 'package:flutter/material.dart';
 
 class SdkWelcomePage extends StatelessWidget {

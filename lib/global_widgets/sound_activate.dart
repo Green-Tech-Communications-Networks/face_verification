@@ -1,5 +1,5 @@
-import 'package:facetest/constants/app_images.dart';
-import 'package:facetest/controller/repo.dart';
+import 'package:face_verification/constants/app_images.dart';
+import 'package:face_verification/controller/repo.dart';
 import 'package:flutter/material.dart';
 
 class SoundActivate extends StatefulWidget {
@@ -56,7 +56,7 @@ class AssetImages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      package: 'facetest',
+      package: 'face_verification',
       imgPath,
       height: height?.toDouble(),
       width: width?.toDouble(),

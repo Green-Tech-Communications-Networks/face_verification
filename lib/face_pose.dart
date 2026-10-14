@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:facetest/constants/app_images.dart';
+import 'package:face_verification/constants/app_images.dart';
 import 'package:flutter/material.dart';
 
 /// Every pose the flow can ask the user to perform.

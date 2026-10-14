@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:facetest/sdk_welcome_screen.dart';
+import 'package:face_verification/sdk_welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //   "path",
             //   width: 100,
             //   height: 100,
-            //   package: "facetest",
+            //   package: "face_verification",
             // ), // Replace with your image path
             Text(
               '$_counter',

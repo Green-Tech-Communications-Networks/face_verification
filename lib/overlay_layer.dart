@@ -1,15 +1,16 @@
-import 'package:facetest/config/face_capture_config.dart';
-import 'package:facetest/controller/face_capture_cubit.dart';
-import 'package:facetest/controller/face_capture_state.dart';
-import 'package:facetest/controller_select.dart';
-import 'package:facetest/default_face_overlay.dart';
+import 'package:face_verification/config/face_capture_config.dart';
+import 'package:face_verification/controller/face_capture_cubit.dart';
+import 'package:face_verification/controller/face_capture_state.dart';
+import 'package:face_verification/controller_select.dart';
+import 'package:face_verification/default_face_overlay.dart';
 import 'package:flutter/material.dart';
 
 class OverlayLayer extends StatefulWidget {
   final FaceCaptureConfig config;
   final FaceCaptureController controller;
   final VoidCallback? onClose;
-  const OverlayLayer({super.key, 
+  const OverlayLayer({
+    super.key,
     required this.config,
     required this.controller,
     this.onClose,

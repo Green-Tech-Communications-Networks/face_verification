@@ -1,5 +1,5 @@
-import 'package:facetest/constants/color_pallet.dart';
-import 'package:facetest/global_widgets/app_text.dart';
+import 'package:face_verification/constants/color_pallet.dart';
+import 'package:face_verification/global_widgets/app_text.dart';
 import 'package:flutter/material.dart';
 
 class AppButton extends StatelessWidget {

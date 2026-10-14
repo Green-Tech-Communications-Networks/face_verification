@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.facetest"
+    namespace = "com.example.face_verification"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.facetest"
+        applicationId = "com.example.face_verification"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

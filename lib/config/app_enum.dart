@@ -1,4 +1,4 @@
-import 'package:facetest/controller/face_capture_state.dart';
+import 'package:face_verification/controller/face_capture_state.dart';
 
 enum CaptureUi {
   initializing,
@@ -9,6 +9,7 @@ enum CaptureUi {
   uploadFailure,
   uploadSuccess,
 }
+
 CaptureUi uiFor(FaceCapturePhase phase) {
   return switch (phase) {
     FaceCapturePhase.initializing => CaptureUi.initializing,

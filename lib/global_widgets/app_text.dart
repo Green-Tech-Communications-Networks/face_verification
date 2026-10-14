@@ -1,4 +1,4 @@
-import 'package:facetest/constants/color_pallet.dart';
+import 'package:face_verification/constants/color_pallet.dart';
 import 'package:flutter/widgets.dart';
 
 String messageUrl = '';

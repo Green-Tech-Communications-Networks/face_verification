@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:camera/camera.dart';
-import 'package:facetest/config/face_capture_config.dart';
-import 'package:facetest/face_pose.dart';
+import 'package:face_verification/config/face_capture_config.dart';
+import 'package:face_verification/face_pose.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
@@ -97,7 +97,9 @@ class FaceCaptureController extends ChangeNotifier {
   }
 
   static Future<void> _warmDetector() async {
-    final detector = _sharedDetector ??= FaceDetector(options: _detectorOptions);
+    final detector = _sharedDetector ??= FaceDetector(
+      options: _detectorOptions,
+    );
     final isAndroid = Platform.isAndroid;
     final bytes = isAndroid
         ? Uint8List(_warmWidth * _warmHeight + (_warmWidth * _warmHeight ~/ 2))
@@ -131,7 +133,7 @@ class FaceCaptureController extends ChangeNotifier {
     ImageConfiguration config,
   ) async {
     for (final provider in [
-      AssetImage(path, package: 'facetest'),
+      AssetImage(path, package: 'face_verification'),
       AssetImage(path),
     ]) {
       if (await _precacheProvider(provider, config)) return;
@@ -326,7 +328,9 @@ class FaceCaptureController extends ChangeNotifier {
   Future<void> _detectFace(InputImage inputImage) async {
     if (_disposed) return;
 
-    final detector = _sharedDetector ??= FaceDetector(options: _detectorOptions);
+    final detector = _sharedDetector ??= FaceDetector(
+      options: _detectorOptions,
+    );
     final List<Face> faces;
     try {
       faces = await detector.processImage(inputImage);
@@ -486,7 +490,8 @@ class FaceCaptureController extends ChangeNotifier {
 
   Future<void> _stopImageStream(CameraController controller) async {
     try {
-      if (controller.value.isInitialized && controller.value.isStreamingImages) {
+      if (controller.value.isInitialized &&
+          controller.value.isStreamingImages) {
         await controller.stopImageStream();
       }
     } on CameraException catch (e) {

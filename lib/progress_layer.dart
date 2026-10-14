@@ -1,14 +1,18 @@
-import 'package:facetest/config/face_capture_config.dart';
-import 'package:facetest/controller/face_capture_cubit.dart';
-import 'package:facetest/controller_select.dart';
-import 'package:facetest/default_progress.dart';
+import 'package:face_verification/config/face_capture_config.dart';
+import 'package:face_verification/controller/face_capture_cubit.dart';
+import 'package:face_verification/controller_select.dart';
+import 'package:face_verification/default_progress.dart';
 import 'package:flutter/material.dart';
 
 class ProgressLayer extends StatelessWidget {
   final FaceCaptureConfig config;
   final FaceCaptureController controller;
 
-  const ProgressLayer({super.key, required this.config, required this.controller});
+  const ProgressLayer({
+    super.key,
+    required this.config,
+    required this.controller,
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -1,4 +1,4 @@
-import 'package:facetest/oval_step_progress.dart';
+import 'package:face_verification/oval_step_progress.dart';
 import 'package:flutter/material.dart';
 
 class DefaultProgress extends StatelessWidget {

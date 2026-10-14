@@ -1,12 +1,12 @@
-# Facetest
+# face_verification
 
 A Flutter face verification and face capture package built on `google_mlkit_face_detection`.
 
-`facetest` provides a ready-to-use verification experience that guides users through a series of facial poses and captures their face while performing real-time face detection. It is suited to identity verification, KYC onboarding, biometric authentication, user registration, and any flow that needs face-based verification.
+`face_verification` provides a ready-to-use verification experience that guides users through a series of facial poses and captures their face while performing real-time face detection. It is suited to identity verification, KYC onboarding, biometric authentication, user registration, and any flow that needs face-based verification.
 
 ## Table of Contents
 
-- [Facetest](#facetest)
+- [face_verification](#face_verification)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [How It Works](#how-it-works)
@@ -72,11 +72,11 @@ It uses Google ML Kit's face detection to find the user's face and determine whe
 
 ## Installation
 
-Add `facetest` to your app's `pubspec.yaml`:
+Add `face_verification` to your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  facetest: ^1.0.0+1
+  face_verification: ^1.0.0+1
 ```
 
 Install the package:
@@ -88,12 +88,12 @@ flutter pub get
 Import it:
 
 ```dart
-import 'package:facetest/facetest.dart';
+import 'package:face_verification/face_verification.dart';
 ```
 
 ## Platform Setup
 
-`facetest` needs camera access to perform face detection, capture, and verification. Your app must declare the camera permission on each platform and request it at runtime before starting the verification flow.
+`face_verification` needs camera access to perform face detection, capture, and verification. Your app must declare the camera permission on each platform and request it at runtime before starting the verification flow.
 
 ### Android
 
@@ -184,7 +184,7 @@ Add the camera usage description to `ios/Runner/Info.plist`:
 
 ## Usage
 
-After installing the package and configuring camera permissions, use `facetest` in your app to start the face verification flow.
+After installing the package and configuring camera permissions, use `face_verification` in your app to start the face verification flow.
 
 Refer to the package API documentation and the example application for available configuration options and customization.
 
