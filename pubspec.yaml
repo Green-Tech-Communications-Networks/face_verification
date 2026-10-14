@@ -2,7 +2,7 @@ name: gtcomnet_face_id
 description: "provides a ready-to-use verification experience that guides users through a series of facial poses and captures their face while performing real-time face detection"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-# repository: https://github.com/gtcomnet-mobile-2/gtcomnet_face_id
+homepage: https://gtcomnet.com
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
