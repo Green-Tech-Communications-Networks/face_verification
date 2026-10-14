@@ -142,18 +142,6 @@ In `android/app/build.gradle.kts`:
 android {
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByNam## Use Cases
-
-- KYC and identity verification
-- User onboarding and account registration
-- Biometric authentication
-- Customer verification
-- Financial applications
-- Healthcare applications
-- Any application requiring face-based verificatione("debug")
-
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
